@@ -12,6 +12,9 @@
 		D734018C1DFEFB5300E5BE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D734018A1DFEFB5300E5BE27 /* Main.storyboard */; };
 		D734018E1DFEFB5300E5BE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D734018D1DFEFB5300E5BE27 /* Assets.xcassets */; };
 		D73401911DFEFB5300E5BE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D734018F1DFEFB5300E5BE27 /* LaunchScreen.storyboard */; };
+		D78612BE1E1EA88100555CEC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612BD1E1EA88100555CEC /* File.swift */; };
+		D78612C01E1EABC300555CEC /* NameSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */; };
+		D78612C21E1EACE600555CEC /* GenderSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D734018D1DFEFB5300E5BE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73401901DFEFB5300E5BE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D73401921DFEFB5300E5BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78612BD1E1EA88100555CEC /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSelectViewController.swift; sourceTree = "<group>"; };
+		D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				D73401861DFEFB5300E5BE27 /* AppDelegate.swift */,
-				D73401881DFEFB5300E5BE27 /* ViewController.swift */,
+				D78612BD1E1EA88100555CEC /* File.swift */,
 				D734018A1DFEFB5300E5BE27 /* Main.storyboard */,
+				D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */,
+				D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */,
+				D73401881DFEFB5300E5BE27 /* ViewController.swift */,
 				D734018D1DFEFB5300E5BE27 /* Assets.xcassets */,
 				D734018F1DFEFB5300E5BE27 /* LaunchScreen.storyboard */,
 				D73401921DFEFB5300E5BE27 /* Info.plist */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73401891DFEFB5300E5BE27 /* ViewController.swift in Sources */,
+				D78612C01E1EABC300555CEC /* NameSelectViewController.swift in Sources */,
+				D78612BE1E1EA88100555CEC /* File.swift in Sources */,
 				D73401871DFEFB5300E5BE27 /* AppDelegate.swift in Sources */,
+				D78612C21E1EACE600555CEC /* GenderSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				D73401971DFEFB5300E5BE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
