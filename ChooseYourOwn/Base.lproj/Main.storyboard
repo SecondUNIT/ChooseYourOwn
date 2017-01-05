@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="623" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Name Select View Controller-->
         <scene sceneID="6jS-GE-4XL">
             <objects>
-                <viewController id="5am-iz-nxq" sceneMemberID="viewController">
+                <viewController id="5am-iz-nxq" customClass="NameSelectViewController" customModule="ChooseYourOwn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CJR-Ec-SKi"/>
                         <viewControllerLayoutGuide type="bottom" id="rLO-22-rlh"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1313" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Gender Select View Controller-->
         <scene sceneID="fW9-tF-Abw">
             <objects>
-                <viewController id="BYp-Xf-mkO" sceneMemberID="viewController">
+                <viewController id="BYp-Xf-mkO" customClass="GenderSelectViewController" customModule="ChooseYourOwn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ekr-9Y-5Au"/>
                         <viewControllerLayoutGuide type="bottom" id="NS0-gI-onC"/>
@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="1994" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Partner Gender View Controller-->
         <scene sceneID="cQt-UH-pjM">
             <objects>
-                <viewController id="aBF-wc-VPH" sceneMemberID="viewController">
+                <viewController id="aBF-wc-VPH" customClass="PartnerGenderViewController" customModule="ChooseYourOwn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ell-w3-mEN"/>
                         <viewControllerLayoutGuide type="bottom" id="5IL-Se-UaP"/>
@@ -264,6 +264,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="7CV-9m-50Z" kind="show" identifier="izabelle" id="jfB-iR-7nU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJR-QY-dCk">
                                 <frame key="frameInset" minX="20" minY="149" width="201" height="30"/>
@@ -281,6 +284,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="7CV-9m-50Z" kind="show" identifier="hariette" id="Qs0-fc-baR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OnH-ec-mFR">
                                 <frame key="frameInset" minX="20" minY="187" width="201" height="30"/>
@@ -313,9 +319,27 @@
             <point key="canvasLocation" x="2686" y="139"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="04q-Ph-dmS">
+            <objects>
+                <viewController id="7CV-9m-50Z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SUk-KM-qvd"/>
+                        <viewControllerLayoutGuide type="bottom" id="gOd-1u-ZlO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wRf-RB-hWu">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gcy-h6-Hib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3380" y="139"/>
+        </scene>
+        <!--Randomizer View Controller-->
         <scene sceneID="a2s-FS-YhL">
             <objects>
-                <viewController id="Rfq-Me-7VS" sceneMemberID="viewController">
+                <viewController id="Rfq-Me-7VS" customClass="RandomizerViewController" customModule="ChooseYourOwn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wFM-81-ovC"/>
                         <viewControllerLayoutGuide type="bottom" id="sYb-h1-Jxy"/>
@@ -357,6 +381,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oUm-74-Alm"/>
+        <segue reference="DKA-bc-W9A"/>
+        <segue reference="Qs0-fc-baR"/>
     </inferredMetricsTieBreakers>
 </document>
