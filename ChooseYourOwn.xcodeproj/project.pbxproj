@@ -15,6 +15,7 @@
 		D78612BE1E1EA88100555CEC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612BD1E1EA88100555CEC /* File.swift */; };
 		D78612C01E1EABC300555CEC /* NameSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */; };
 		D78612C21E1EACE600555CEC /* GenderSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */; };
+		D78612C41E1EAE2200555CEC /* PartnerGenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D78612BD1E1EA88100555CEC /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSelectViewController.swift; sourceTree = "<group>"; };
 		D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSelectViewController.swift; sourceTree = "<group>"; };
+		D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerGenderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 				D73401861DFEFB5300E5BE27 /* AppDelegate.swift */,
 				D78612BD1E1EA88100555CEC /* File.swift */,
 				D734018A1DFEFB5300E5BE27 /* Main.storyboard */,
+				D73401881DFEFB5300E5BE27 /* ViewController.swift */,
 				D78612BF1E1EABC300555CEC /* NameSelectViewController.swift */,
 				D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */,
-				D73401881DFEFB5300E5BE27 /* ViewController.swift */,
+				D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */,
 				D734018D1DFEFB5300E5BE27 /* Assets.xcassets */,
 				D734018F1DFEFB5300E5BE27 /* LaunchScreen.storyboard */,
 				D73401921DFEFB5300E5BE27 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78612C41E1EAE2200555CEC /* PartnerGenderViewController.swift in Sources */,
 				D73401891DFEFB5300E5BE27 /* ViewController.swift in Sources */,
 				D78612C01E1EABC300555CEC /* NameSelectViewController.swift in Sources */,
 				D78612BE1E1EA88100555CEC /* File.swift in Sources */,
