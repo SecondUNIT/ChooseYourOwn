@@ -113,6 +113,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="playerNameField" destination="r3i-hn-J8W" id="4fN-Sz-LTa"/>
                         <segue destination="BYp-Xf-mkO" kind="show" identifier="cathy" id="jCp-5G-YYi"/>
                     </connections>
                 </viewController>
@@ -223,6 +224,10 @@
                             <outletCollection property="gestureRecognizers" destination="1rW-Fs-m1a" appends="YES" id="5sy-JE-aPp"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="femaleGenderSelect" destination="HhG-NQ-SNf" id="cQ6-Aa-ynn"/>
+                        <outlet property="maleGenderSelect" destination="Mm9-mI-qHH" id="nuF-Zc-a8x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HBj-ZZ-kfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="1rW-Fs-m1a"/>
@@ -312,6 +317,10 @@
                             <outletCollection property="gestureRecognizers" destination="Emr-R1-UVd" appends="YES" id="T2l-vA-Svn"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="femalePartner" destination="eJR-QY-dCk" id="yAL-WR-Tmu"/>
+                        <outlet property="malePartnerSelect" destination="eJR-QY-dCk" id="nfc-TT-uBY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7W-Xi-D1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Emr-R1-UVd"/>
@@ -329,12 +338,75 @@
                     <view key="view" contentMode="scaleToFill" id="wRf-RB-hWu">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you sure you wish to proceed with these selections?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0md-qg-lrG">
+                                <frame key="frameInset" minX="20" minY="108" width="457" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your name is [NAME] and you are a [GENDER], and you prefer a [GENDER] partner." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeB-kl-cZL">
+                                <frame key="frameInset" minX="20" minY="72" width="650" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ap-c9-sSl">
+                                <frame key="frameInset" minX="239" minY="181" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Yes I'm sure!"/>
+                                <connections>
+                                    <segue destination="o0m-Je-2UV" kind="show" identifier="kathrine" id="K62-U1-b8c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1B-0k-vfm">
+                                <frame key="frameInset" minX="422" minY="181" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ehh, let's go back..."/>
+                                <connections>
+                                    <segue destination="5am-iz-nxq" kind="show" identifier="janette" id="45B-Ty-NHC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcy-h6-Hib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3380" y="139"/>
+            <point key="canvasLocation" x="3379.6875" y="138.8671875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="86v-7h-RRP">
+            <objects>
+                <viewController id="o0m-Je-2UV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="su1-W7-Apk"/>
+                        <viewControllerLayoutGuide type="bottom" id="10j-ra-6VB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Psr-9Q-SaF">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTb-zN-r4h">
+                                <frame key="frameInset" minX="310" minY="114" width="148" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faces" translatesAutoresizingMaskIntoConstraints="NO" id="tks-0C-Any">
+                                <frame key="frameInset" minY="171" width="768" height="473"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8h-rN-Sm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4063.28125" y="138.8671875"/>
         </scene>
         <!--Randomizer View Controller-->
         <scene sceneID="a2s-FS-YhL">
@@ -368,6 +440,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Randomize &gt;"/>
                                 <connections>
+                                    <action selector="randomizeButtonPress:" destination="Rfq-Me-7VS" eventType="touchUpInside" id="Ujk-MR-cGG"/>
                                     <segue destination="aBF-wc-VPH" kind="show" identifier="gabriella" id="DKA-bc-W9A"/>
                                 </connections>
                             </button>
@@ -380,8 +453,12 @@
             <point key="canvasLocation" x="1993.75" y="801.5625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="faces" width="400" height="300"/>
+    </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="jfB-iR-7nU"/>
         <segue reference="DKA-bc-W9A"/>
-        <segue reference="Qs0-fc-baR"/>
+        <segue reference="45B-Ty-NHC"/>
     </inferredMetricsTieBreakers>
 </document>

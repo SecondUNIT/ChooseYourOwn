@@ -10,6 +10,9 @@ import UIKit
 
 class GenderSelectViewController: UIViewController {
 
+    @IBOutlet weak var maleGenderSelect: UIButton!
+    @IBOutlet weak var femaleGenderSelect: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

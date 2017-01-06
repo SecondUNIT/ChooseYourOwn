@@ -10,6 +10,8 @@ import UIKit
 
 class NameSelectViewController: UIViewController {
 
+    @IBOutlet weak var playerNameField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
