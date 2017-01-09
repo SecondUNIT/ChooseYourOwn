@@ -99,6 +99,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="suc-9y-XnS"/>
                     <connections>
+                        <outlet property="continueButton" destination="G4Y-Pn-jnK" id="2fn-2h-DeS"/>
                         <outlet property="playerNameField" destination="r3i-hn-J8W" id="4fN-Sz-LTa"/>
                         <segue destination="BYp-Xf-mkO" kind="show" identifier="cathy" id="jCp-5G-YYi"/>
                     </connections>
@@ -461,8 +462,8 @@
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DKA-bc-W9A"/>
-        <segue reference="GNe-JB-1Jd"/>
+        <segue reference="45B-Ty-NHC"/>
         <segue reference="jfB-iR-7nU"/>
+        <segue reference="oUm-74-Alm"/>
     </inferredMetricsTieBreakers>
 </document>

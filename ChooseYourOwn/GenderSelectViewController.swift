@@ -10,13 +10,14 @@ import UIKit
 
 class GenderSelectViewController: UIViewController {
 
+    var characterGenderSelect = CharacterPresets()
+    
     @IBOutlet weak var maleGenderSelect: UIButton!
     @IBOutlet weak var femaleGenderSelect: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
 

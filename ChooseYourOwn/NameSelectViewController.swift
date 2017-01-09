@@ -10,13 +10,28 @@ import UIKit
 
 class NameSelectViewController: UIViewController {
 
+    @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var playerNameField: UITextField!
+    
+    var characterNameInsert = CharacterPresets()
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string:String) -> Bool
+    {
+        if playerNameField.text! == ""
+        {
+            continueButton.isEnabled = true
+        }
+        return true
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        continueButton.isEnabled = false
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let gndrVC = segue.destination as! GenderSelectViewController
+        characterNameInsert.playerName = playerNameField.text!
+        GenderSelectViewController.characterGenderSelect = characterNameInsert
+    }
 }
