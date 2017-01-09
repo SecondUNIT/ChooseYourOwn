@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
@@ -44,32 +44,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Starto! &gt;"/>
                                 <connections>
-                                    <segue destination="ATU-b6-SV7" kind="show" identifier="alice" id="30Y-aM-FcK"/>
+                                    <segue destination="br1-LB-aiT" kind="show" identifier="alice" id="GNe-JB-1Jd"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="e8J-of-G3x"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-53.125" y="138.8671875"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="x0l-eh-yep">
-            <objects>
-                <navigationController id="ATU-b6-SV7" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xMh-ms-C4v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="5am-iz-nxq" kind="show" identifier="betty" id="5ZZ-uI-KoB"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TO6-59-T4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="623" y="139"/>
+            <point key="canvasLocation" x="1445" y="139"/>
         </scene>
         <!--Name Select View Controller-->
         <scene sceneID="6jS-GE-4XL">
@@ -112,6 +97,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="suc-9y-XnS"/>
                     <connections>
                         <outlet property="playerNameField" destination="r3i-hn-J8W" id="4fN-Sz-LTa"/>
                         <segue destination="BYp-Xf-mkO" kind="show" identifier="cathy" id="jCp-5G-YYi"/>
@@ -119,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNY-80-kkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1313" y="139"/>
+            <point key="canvasLocation" x="2843.75" y="138.8671875"/>
         </scene>
         <!--Gender Select View Controller-->
         <scene sceneID="fW9-tF-Abw">
@@ -232,7 +218,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HBj-ZZ-kfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="1rW-Fs-m1a"/>
             </objects>
-            <point key="canvasLocation" x="1994" y="139"/>
+            <point key="canvasLocation" x="3525" y="138.8671875"/>
         </scene>
         <!--Partner Gender View Controller-->
         <scene sceneID="cQt-UH-pjM">
@@ -325,7 +311,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7W-Xi-D1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Emr-R1-UVd"/>
             </objects>
-            <point key="canvasLocation" x="2686" y="139"/>
+            <point key="canvasLocation" x="4217.1875" y="138.8671875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="04q-Ph-dmS">
@@ -366,7 +352,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ehh, let's go back..."/>
                                 <connections>
-                                    <segue destination="5am-iz-nxq" kind="show" identifier="janette" id="45B-Ty-NHC"/>
+                                    <segue destination="br1-LB-aiT" kind="show" identifier="janette" id="45B-Ty-NHC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -375,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcy-h6-Hib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3379.6875" y="138.8671875"/>
+            <point key="canvasLocation" x="4910.9375" y="138.8671875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="86v-7h-RRP">
@@ -406,7 +392,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z8h-rN-Sm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4063.28125" y="138.8671875"/>
+            <point key="canvasLocation" x="5594.53125" y="138.8671875"/>
         </scene>
         <!--Randomizer View Controller-->
         <scene sceneID="a2s-FS-YhL">
@@ -450,15 +436,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcc-iZ-k8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1993.75" y="801.5625"/>
+            <point key="canvasLocation" x="3525" y="860"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oXq-ML-qTr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="br1-LB-aiT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OSg-PT-wBn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5am-iz-nxq" kind="relationship" relationship="rootViewController" id="IyV-KG-TEr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lDb-48-31L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151" y="139"/>
         </scene>
     </scenes>
     <resources>
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jfB-iR-7nU"/>
         <segue reference="DKA-bc-W9A"/>
-        <segue reference="45B-Ty-NHC"/>
+        <segue reference="GNe-JB-1Jd"/>
+        <segue reference="jfB-iR-7nU"/>
     </inferredMetricsTieBreakers>
 </document>
