@@ -19,6 +19,10 @@ class GenderSelectViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let partnerVC = segue.destination as! PartnerGenderViewController
+        //I dont know how to put the gender in here yet.... so IDK this is here for now.
+        //i just want my code to workkkkk ;^;
+    }
 }

@@ -462,8 +462,8 @@
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="45B-Ty-NHC"/>
-        <segue reference="jfB-iR-7nU"/>
+        <segue reference="GNe-JB-1Jd"/>
         <segue reference="oUm-74-Alm"/>
+        <segue reference="jfB-iR-7nU"/>
     </inferredMetricsTieBreakers>
 </document>
