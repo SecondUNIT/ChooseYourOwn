@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NameSelectViewController: UIViewController {
+class NameSelectViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var playerNameField: UITextField!

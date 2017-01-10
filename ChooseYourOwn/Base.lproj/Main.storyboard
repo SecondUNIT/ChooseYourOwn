@@ -251,6 +251,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="malePartnerSelect:" destination="aBF-wc-VPH" eventType="touchUpInside" id="Xcj-en-7Fc"/>
                                     <segue destination="7CV-9m-50Z" kind="show" identifier="izabelle" id="jfB-iR-7nU"/>
                                 </connections>
                             </button>
@@ -271,6 +272,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="femalePartnerSelect:" destination="aBF-wc-VPH" eventType="touchUpInside" id="teM-Wh-mbA"/>
                                     <segue destination="7CV-9m-50Z" kind="show" identifier="hariette" id="Qs0-fc-baR"/>
                                 </connections>
                             </button>
@@ -295,10 +297,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
-                    <connections>
-                        <outlet property="femalePartner" destination="eJR-QY-dCk" id="yAL-WR-Tmu"/>
-                        <outlet property="malePartnerSelect" destination="eJR-QY-dCk" id="nfc-TT-uBY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7W-Xi-D1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

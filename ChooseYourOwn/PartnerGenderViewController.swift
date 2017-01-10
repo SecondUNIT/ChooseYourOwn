@@ -15,9 +15,14 @@ class PartnerGenderViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func malePartnerSelect(_ sender: UIButton) {
+        
+    }
+    @IBAction func femalePartnerSelect(_ sender: UIButton) {
+        
+    }
+    
 }
