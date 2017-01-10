@@ -10,19 +10,25 @@ import UIKit
 
 class GenderSelectViewController: UIViewController {
 
-    var characterGenderSelect = CharacterPresets()
+    var playerGenderSelect = CharacterPresets()
     
-    @IBOutlet weak var maleGenderSelect: UIButton!
-    @IBOutlet weak var femaleGenderSelect: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    @IBAction func maleGenderSelcted(_ sender: UIButton) {
+        playerGenderSelect.playerGender = "male"
+    }
+    
+    @IBAction func femaleGenderSelected(_ sender: UIButton) {
+        playerGenderSelect.playerGender = "female"
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let partnerVC = segue.destination as! PartnerGenderViewController
-        //I dont know how to put the gender in here yet.... so IDK this is here for now.
-        //i just want my code to workkkkk ;^;
+        partnerVC.partnerGenderSelect = self.playerGenderSelect
     }
 }

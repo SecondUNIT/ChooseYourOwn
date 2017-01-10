@@ -32,6 +32,6 @@ class NameSelectViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let genderVC = segue.destination as! GenderSelectViewController
         characterNameInsert.playerName = playerNameField.text!
-        genderVC.characterGenderSelect = characterNameInsert
+        genderVC.playerGenderSelect = characterNameInsert
     }
 }
