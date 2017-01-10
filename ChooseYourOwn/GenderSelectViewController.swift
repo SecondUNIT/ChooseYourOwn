@@ -32,4 +32,5 @@ class GenderSelectViewController: UIViewController {
         let partnerVC = segue.destination as! PartnerGenderViewController
         partnerVC.partnerGenderSelect = self.playerGenderSelect
     }
+    
 }
