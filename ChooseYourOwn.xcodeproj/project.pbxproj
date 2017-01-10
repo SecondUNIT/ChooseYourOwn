@@ -17,6 +17,7 @@
 		D78612C21E1EACE600555CEC /* GenderSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */; };
 		D78612C41E1EAE2200555CEC /* PartnerGenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */; };
 		D78612C61E1EAE8400555CEC /* RandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78612C51E1EAE8400555CEC /* RandomizerViewController.swift */; };
+		D7986A461E253D17003EA900 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7986A451E253D17003EA900 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderSelectViewController.swift; sourceTree = "<group>"; };
 		D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerGenderViewController.swift; sourceTree = "<group>"; };
 		D78612C51E1EAE8400555CEC /* RandomizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomizerViewController.swift; sourceTree = "<group>"; };
+		D7986A451E253D17003EA900 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D78612C11E1EACE600555CEC /* GenderSelectViewController.swift */,
 				D78612C51E1EAE8400555CEC /* RandomizerViewController.swift */,
 				D78612C31E1EAE2200555CEC /* PartnerGenderViewController.swift */,
+				D7986A451E253D17003EA900 /* FinalViewController.swift */,
 				D734018D1DFEFB5300E5BE27 /* Assets.xcassets */,
 				D734018F1DFEFB5300E5BE27 /* LaunchScreen.storyboard */,
 				D73401921DFEFB5300E5BE27 /* Info.plist */,
@@ -157,6 +160,7 @@
 				D73401891DFEFB5300E5BE27 /* ViewController.swift in Sources */,
 				D78612C01E1EABC300555CEC /* NameSelectViewController.swift in Sources */,
 				D78612BE1E1EA88100555CEC /* File.swift in Sources */,
+				D7986A461E253D17003EA900 /* FinalViewController.swift in Sources */,
 				D73401871DFEFB5300E5BE27 /* AppDelegate.swift in Sources */,
 				D78612C21E1EACE600555CEC /* GenderSelectViewController.swift in Sources */,
 			);

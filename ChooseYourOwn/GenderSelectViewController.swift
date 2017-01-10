@@ -12,6 +12,7 @@ class GenderSelectViewController: UIViewController {
 
     var playerGenderSelect = CharacterPresets()
     
+    @IBOutlet weak var characterGenderText: UILabel!
     
     
     override func viewDidLoad() {

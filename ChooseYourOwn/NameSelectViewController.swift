@@ -8,25 +8,16 @@
 
 import UIKit
 
-class NameSelectViewController: UIViewController, UITextFieldDelegate {
+class NameSelectViewController: UIViewController {
 
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var playerNameField: UITextField!
     
     var characterNameInsert = CharacterPresets()
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string:String) -> Bool
-    {
-        if playerNameField.text! == ""
-        {
-            continueButton.isEnabled = true
-        }
-        return true
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        continueButton.isEnabled = false
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

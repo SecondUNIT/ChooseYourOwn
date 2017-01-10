@@ -210,6 +210,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
+                    <connections>
+                        <outlet property="characterGenderText" destination="9Lc-Ze-wQh" id="6vm-7u-onI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HBj-ZZ-kfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -302,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="4217.1875" y="138.8671875"/>
         </scene>
-        <!--View Controller-->
+        <!--Final View Controller-->
         <scene sceneID="04q-Ph-dmS">
             <objects>
-                <viewController id="7CV-9m-50Z" sceneMemberID="viewController">
+                <viewController id="7CV-9m-50Z" customClass="FinalViewController" customModule="ChooseYourOwn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SUk-KM-qvd"/>
                         <viewControllerLayoutGuide type="bottom" id="gOd-1u-ZlO"/>
@@ -347,6 +350,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmationText" destination="YeB-kl-cZL" id="S7c-sV-BKZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcy-h6-Hib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

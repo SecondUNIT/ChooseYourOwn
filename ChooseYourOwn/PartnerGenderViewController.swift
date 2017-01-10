@@ -19,10 +19,14 @@ class PartnerGenderViewController: UIViewController {
     }
 
     @IBAction func malePartnerSelect(_ sender: UIButton) {
-        
+        partnerGenderSelect.partnerGender = "male"
     }
     @IBAction func femalePartnerSelect(_ sender: UIButton) {
-        
+        partnerGenderSelect.partnerGender = "female"
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let finalVC = segue.destination as! FinalViewController
+        finalVC.characterSelctions = self.partnerGenderSelect
+    }
 }
