@@ -26,6 +26,15 @@ class PartnerGenderViewController: UIViewController {
         partnerGenderSelect.partnerGender = "female"
     }
     
+    @IBAction func questionableButton(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Escuse me?", message: "Yes, you do, because I still dont know what i'm doing and can't code a randomizer.", preferredStyle: UIAlertControllerStyle.alert)
+        let dismiss = UIAlertAction(title: "Oh, alright.", style: .default, handler: nil)
+        
+        alert.addAction(dismiss)
+        present(alert, animated: true, completion: nil)
+        }
+
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let finalVC = segue.destination as! FinalViewController
         finalVC.characterSelctions = self.partnerGenderSelect

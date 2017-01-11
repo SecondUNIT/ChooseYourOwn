@@ -277,6 +277,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="questionableButton:" destination="aBF-wc-VPH" eventType="touchUpInside" id="G5u-Fe-RXZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
