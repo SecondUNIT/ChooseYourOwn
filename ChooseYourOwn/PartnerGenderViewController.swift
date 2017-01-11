@@ -12,10 +12,11 @@ class PartnerGenderViewController: UIViewController {
 
     var partnerGenderSelect = CharacterPresets()
    
+    @IBOutlet weak var partnerSelectText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        partnerSelectText.text = "Alright then \(partnerGenderSelect.playerName), let's pick your partner's gender too!"
     }
 
     @IBAction func malePartnerSelect(_ sender: UIButton) {

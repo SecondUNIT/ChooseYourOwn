@@ -16,7 +16,7 @@ class FinalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        confirmationText.text = "Your name is \(characterSelctions.playerName) and you are a \(characterSelctions.playerGender), and you prefer a \(characterSelctions.partnerGender) partner."
     }
 
 }

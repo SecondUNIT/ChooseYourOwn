@@ -17,7 +17,7 @@ class GenderSelectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        characterGenderText.text = "Alrighty then \(playerGenderSelect.playerName), please select your prefered gender..."
     }
     @IBAction func maleGenderSelcted(_ sender: UIButton) {
         playerGenderSelect.playerGender = "male"

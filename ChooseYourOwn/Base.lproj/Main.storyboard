@@ -282,6 +282,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
+                    <connections>
+                        <outlet property="partnerSelectText" destination="8dJ-Z7-F77" id="xix-Wg-RBX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7W-Xi-D1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -394,8 +397,8 @@
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="45B-Ty-NHC"/>
         <segue reference="jfB-iR-7nU"/>
         <segue reference="Vph-SS-eEe"/>
-        <segue reference="GNe-JB-1Jd"/>
     </inferredMetricsTieBreakers>
 </document>
