@@ -194,6 +194,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="maleGenderSelcted:" destination="BYp-Xf-mkO" eventType="touchUpInside" id="lIl-ZX-5IV"/>
                                     <segue destination="aBF-wc-VPH" kind="show" identifier="francine" id="Tev-Ft-xpC"/>
                                 </connections>
                             </button>
