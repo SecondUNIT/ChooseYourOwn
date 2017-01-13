@@ -193,6 +193,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="aBF-wc-VPH" kind="show" identifier="francine" id="Tev-Ft-xpC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HhG-NQ-SNf">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -499,6 +502,7 @@
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Tev-Ft-xpC"/>
         <segue reference="45B-Ty-NHC"/>
         <segue reference="jfB-iR-7nU"/>
     </inferredMetricsTieBreakers>
