@@ -50,6 +50,10 @@
                                     <segue destination="br1-LB-aiT" kind="show" identifier="alice" id="GNe-JB-1Jd"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pMm-gJ-0HT">
+                                <frame key="frameInset" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -67,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1445" y="139"/>
+            <point key="canvasLocation" x="1444.53125" y="138.8671875"/>
         </scene>
         <!--Name Select View Controller-->
         <scene sceneID="6jS-GE-4XL">
@@ -471,10 +475,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="1920" height="1080"/>
         <image name="faces" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="45B-Ty-NHC"/>
+        <segue reference="GNe-JB-1Jd"/>
         <segue reference="jfB-iR-7nU"/>
     </inferredMetricsTieBreakers>
 </document>
